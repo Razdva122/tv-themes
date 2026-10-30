@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "themeApiVersion": 1,
+  "id": "github:invrnt/tv-themes:minimal",
+  "title": "Minimal",
+  "description": "Pure black, four large cards with no dock band, soft shadows and a quiet header without the greeting.",
+  "author": {
+    "name": "invrnt",
+    "url": "https://github.com/invrnt"
+  },
+  "themeVersion": "1.0.0",
+  "layout": {
+    "preset": "dock-grid",
+    "columns": 4,
+    "spacingScale": 1,
+    "textScale": 1,
+    "focusScale": 1.1
+  },
+  "defaults": {
+    "wallpaperAssetId": null,
+    "dim": 0,
+    "accent": "#ffffff"
+  },
+  "assets": [
+    {
+      "id": "preview",
+      "path": "assets/preview.png",
+      "mediaType": "image/png",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "preview-inputs",
+      "path": "assets/preview-inputs.png",
+      "mediaType": "image/png",
+      "width": 960,
+      "height": 540
+    }
+  ],
+  "previewAssetId": "preview",
+  "license": {
+    "identifier": "MIT",
+    "textPath": "LICENSE.txt",
+    "creditsPath": "CREDITS.txt"
+  }
+}

@@ -1,0 +1,29 @@
+/* Minimal: pure black, large cards without a dock band, quiet header. */
+.ctv-home { background-color: #000000; color: #ffffff; }
+.ctv-ambient { background-image: linear-gradient(180deg, #0c0c0e 0%, #000000 70%); }
+
+/* Header: no greeting, clock and date stay as in Classic. */
+.ctv-greeting { color: transparent; }
+.ctv-shortcut { color: rgba(255, 255, 255, 0.55); background-color: transparent; background-image: linear-gradient(180deg, transparent 0%, transparent 100%); border-style: none; }
+.ctv-shortcut.is-focused { color: #000000; background-color: #ffffff; }
+
+/* Dock: no band behind the favourite apps. */
+.ctv-dock { background-color: transparent; border-style: none; }
+
+/* Cards: rounder, soft depth; the focused one lifts with a light halo. */
+.ctv-card { border-radius: 28px; border-style: none; box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6); }
+.ctv-card.is-focused { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 36px 4px rgba(255, 255, 255, 0.18); }
+.ctv-focus { border-radius: 32px; background-color: transparent; background-image: linear-gradient(180deg, transparent 0%, transparent 100%); box-shadow: 0 0 0 transparent; }
+
+/* Labels only on the focused app. */
+.ctv-label { color: transparent; text-shadow: 0 0 0 transparent; }
+.ctv-label.is-focused { color: #ffffff; }
+
+/* App library and Inputs in the same black palette. */
+.ctv-library { background-color: rgba(0, 0, 0, 0.96); }
+.ctv-library-panel { background-color: #0e0e10; border-color: #2a2a2e; }
+.ctv-library-row { color: #ffffff; background-color: #161618; }
+.ctv-library-row.is-focused { color: #000000; background-color: #ffffff; }
+.ctv-inputs { background-color: #0e0e10; }
+.ctv-input-row { color: #ffffff; background-color: transparent; }
+.ctv-input-row.is-focused { color: #000000; background-color: #ffffff; }

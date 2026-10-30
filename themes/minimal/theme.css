@@ -23,7 +23,9 @@
 .ctv-library { background-color: rgba(0, 0, 0, 0.96); }
 .ctv-library-panel { background-color: #0e0e10; border-color: #2a2a2e; }
 .ctv-library-row { color: #ffffff; background-color: #161618; }
-.ctv-library-row.is-focused { color: #000000; background-color: #ffffff; }
+.ctv-library-row.is-focused { color: #ffffff; background-color: #3a3a3e; }
+/* Library rows always show their names; white app glyphs need a dark focus. */
+.ctv-library-row .ctv-label { color: #ffffff; }
 .ctv-inputs { background-color: #0e0e10; }
 .ctv-input-row { color: #ffffff; background-color: transparent; }
 .ctv-input-row.is-focused { color: #000000; background-color: #ffffff; }
